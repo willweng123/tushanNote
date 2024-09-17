@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿斯兰德联合协会委托表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .table-container {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        .image-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .blurred-image {
+            width: 300px;
+            height: 300px;
+            background-image: url('command_block_image.jpg'); /* 这里放命令方块图片的路径 */
+            background-size: cover;
+            filter: blur(5px);
+            margin-bottom: 20px;
+        }
+
+        .qr-code {
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="table-container">
+            <h2>阿斯兰德联合协会委托表</h2>
+            <table>
+                <tr>
+                    <th>委托类型</th>
+                    <td>公开委托</td>
+                </tr>
+                <tr>
+                    <th>委托目标</th>
+                    <td>寻物</td>
+                </tr>
+                <tr>
+                    <th>委托概要</th>
+                    <td>六年前 凋零灭世席卷整个世界。耳闻能详的屠龙勇士--代号“龙鳞”，以及第五十四位纵令使--“青雀”，在那场惨烈的战役中被确认死亡。会方因此事件遗失了如图所示之物，对于日后诸如此类的事件起防范作用，并以此表达对“龙鳞”生前理念的认可与践行。内部多年搜寻未果，若有知情者，望上报会方，定有重赏。</td>
+                </tr>
+                <tr>
+                    <th>委托方</th>
+                    <td>匿名</td>
+                </tr>
+                <tr>
+                    <th>委托时间</th>
+                    <td>1421年 5月31日</td>
+                </tr>
+                <tr>
+                    <th>委托要求</th>
+                    <td>找到图示的方块或确切线索</td>
+                </tr>
+                <tr>
+                    <th>委托报酬</th>
+                    <td>1w～10w</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="image-container">
+            <div class="blurred-image"></div>
+            <img class="qr-code" src="qr_code_image.png" alt="网站二维码"> <!-- 这里放二维码图片的路径 -->
+        </div>
+    </div>
+
+</body>
+</html>
